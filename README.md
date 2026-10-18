@@ -2,7 +2,7 @@
 
 Website katalog ringkas, modern, minimalis, dan responsif yang menghimpun seluruh inovasi digital serta tautan panduan operasional di lingkungan **Badan Pusat Statistik (BPS) Kabupaten Kepulauan Selayar (Satker 7301)**.
 
-Dikelola oleh **[@ridsonap](https://github.com/ridsonap)**.
+Dikelola oleh **[@stat-selayar](https://github.com/stat-selayar)**.
 
 ---
 
@@ -10,11 +10,11 @@ Dikelola oleh **[@ridsonap](https://github.com/ridsonap)**.
 
 | Inovasi | Kategori | Akses Langsung | Panduan & Repository |
 | :--- | :--- | :--- | :--- |
-| **PUSAT 7301** | Tata Naskah & Administrasi | [s.bps.go.id/pusat7301](https://s.bps.go.id/pusat7301) | [GitHub @ridsonap/pusat7301](https://github.com/ridsonap/pusat7301) |
-| **SLS Finder Selayar** | WebGIS & Geospasial | [Buka SLSelayar](https://ridsonap.github.io/SLSelayar/) | [GitHub @ridsonap/SLSelayar](https://github.com/ridsonap/SLSelayar) |
-| **BUMAKO** | Master Komoditas SPDT NTP 2026 | [Buka BUMAKO](https://ridsonap.github.io/bumako/) | [GitHub @ridsonap/bumako](https://github.com/ridsonap/bumako) |
-| **SIPH Sulsel** | Analisis Inflasi & Harga Pangan | [Buka SIPH](https://ridsonap.github.io/siph/) | [GitHub @ridsonap/siph](https://github.com/ridsonap/siph) |
-| **Sampel SPDT** | Pergantian Sampel DSRT 7301 | [sampel-spdt.vercel.app](https://sampel-spdt.vercel.app) | [GitHub @ridsonap/sampel-spdt](https://github.com/ridsonap/sampel-spdt) |
+| **PUSAT 7301** | Tata Naskah & Administrasi | [s.bps.go.id/pusat7301](https://s.bps.go.id/pusat7301) | [GitHub @stat-selayar/pusat7301](https://github.com/stat-selayar/pusat7301) |
+| **SLS Finder Selayar** | WebGIS & Geospasial | [Buka SLS](https://stat-selayar.github.io/sls/) | [GitHub @stat-selayar/sls](https://github.com/stat-selayar/sls) |
+| **BUMAKO** | Master Komoditas SPDT NTP 2026 | [Buka BUMAKO](https://stat-selayar.github.io/bumako/) | [GitHub @stat-selayar/bumako](https://github.com/stat-selayar/bumako) |
+| **SIPH Sulsel** | Analisis Inflasi & Harga Pangan | [Buka SIPH](https://stat-selayar.github.io/siph/) | [GitHub @stat-selayar/siph](https://github.com/stat-selayar/siph) |
+| **Sampel SPDT** | Pergantian Sampel DSRT 7301 | [sampel-spdt.vercel.app](https://sampel-spdt.vercel.app) | [GitHub @stat-selayar/sampel-spdt](https://github.com/stat-selayar/sampel-spdt) |
 
 ---
 
@@ -52,16 +52,13 @@ python3 -m http.server 8080
 Buka `http://localhost:8080` di browser.
 
 ### 2. Deploy ke GitHub Pages (100% Gratis)
-1. Buat repository baru di GitHub dengan nama `selayarbisa`.
+1. Repository GitHub: `stat-selayar.github.io`.
 2. Push direktori ini ke branch `main`:
    ```bash
-   cd /mnt/data/Project/selayarbisa
-   git init
+   cd /mnt/data/Project/stat-selayar.github.io
    git add .
-   git commit -m "feat: initial commit selayar bisa portal inovasi"
-   git branch -M main
-   git remote add origin https://github.com/ridsonap/selayarbisa.git
-   git push -u origin main
+   git commit -m "feat: perbarui tautan inovasi ke stat-selayar"
+   git push origin main
    ```
 3. Buka **Settings > Pages** pada repository GitHub, pilih branch `main` folder `/(root)`.
-4. Website akan langsung aktif di `https://ridsonap.github.io/selayarbisa/`.
+4. Website akan langsung aktif di `https://stat-selayar.github.io/`.
