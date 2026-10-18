@@ -23,7 +23,7 @@ Dikelola oleh **[@stat-selayar](https://github.com/stat-selayar)**.
 
 - **Minimalist & Zero Dependency:** Murni Static HTML5, modern CSS3, dan Vanilla JavaScript tanpa framework berat.
 - **Fast Instant Search:** Pencarian instan kata kunci inovasi, nama subsektor, atau kegunaan.
-- **Category Filter Pills:** Filter cepat berdasarkan kategori teknis (Administrasi, Geospasial, Survei Pertanian, Analisis Harga).
+- **Category Filter Pills:** Filter cepat berdasarkan kategori teknis (Administrasi, Geospasial, Survei, Analisis Harga).
 - **Dark & Light Mode:** Mendukung switch tema gelap/terang otomatis mengikuti preferensi OS atau manual via toggle.
 - **Copy Link Action:** Tombol cepat salin tautan langsung ke clipboard beserta toast konfirmasi.
 - **Fully Responsive:** Tampilan rapi dan nyaman diakses lewat smartphone, tablet, maupun layar desktop.
