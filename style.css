@@ -419,6 +419,7 @@ body {
 .icon-amber { background: rgba(245, 158, 11, 0.12); color: #f59e0b; }
 .icon-rose { background: rgba(244, 63, 94, 0.12); color: #f43f5e; }
 .icon-purple { background: rgba(139, 92, 246, 0.12); color: #8b5cf6; }
+.icon-teal { background: rgba(20, 184, 166, 0.12); color: #0d9488; }
 
 .card-title-group {
   flex: 1;

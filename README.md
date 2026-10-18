@@ -15,6 +15,7 @@ Dikelola oleh **[@stat-selayar](https://github.com/stat-selayar)**.
 | **BUMAKO** | Master Komoditas SPDT NTP 2026 | [Buka BUMAKO](https://stat-selayar.github.io/bumako/) | [GitHub @stat-selayar/bumako](https://github.com/stat-selayar/bumako) |
 | **SIPH Sulsel** | Analisis Inflasi & Harga Pangan | [Buka SIPH](https://stat-selayar.github.io/siph/) | [GitHub @stat-selayar/siph](https://github.com/stat-selayar/siph) |
 | **Sampel SPDT** | Pergantian Sampel DSRT 7301 | [sampel-spdt.vercel.app](https://sampel-spdt.vercel.app) | [GitHub @stat-selayar/sampel-spdt](https://github.com/stat-selayar/sampel-spdt) |
+| **Gemerlap** | Monitoring Tanaman & Lahan | [Buka Gemerlap](https://stat-selayar.github.io/gemerlap/) | [GitHub @stat-selayar/gemerlap](https://github.com/stat-selayar/gemerlap) |
 
 ---
 
