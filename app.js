@@ -14,8 +14,16 @@ document.addEventListener('DOMContentLoaded', () => {
   const copyButtons = document.querySelectorAll('.copy-btn');
 
   // Theme Management (Default Terang per instruksi)
+  // localStorage can throw (private mode, blocked site data); the theme is only a convenience
+  const readTheme = () => {
+    try { return localStorage.getItem('selayar_bisa_theme'); } catch (e) { return null; }
+  };
+  const saveTheme = (theme) => {
+    try { localStorage.setItem('selayar_bisa_theme', theme); } catch (e) {}
+  };
+
   const getPreferredTheme = () => {
-    const saved = localStorage.getItem('selayar_bisa_theme');
+    const saved = readTheme();
     // Jika belum pernah dipilih, default mutlak adalah 'light' (tema terang)
     return saved === 'dark' ? 'dark' : 'light';
   };
@@ -37,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (themeToggle) themeToggle.title = 'Mode: Terang (Klik untuk ganti Gelap)';
       if (metaThemeColor) metaThemeColor.setAttribute('content', '#f8fafc');
     }
-    localStorage.setItem('selayar_bisa_theme', isDark ? 'dark' : 'light');
+    saveTheme(isDark ? 'dark' : 'light');
   };
 
   // Inisialisasi tema saat pertama kali render (Default: Terang)
@@ -113,8 +121,12 @@ document.addEventListener('DOMContentLoaded', () => {
   // Filter Pill Listeners
   filterPills.forEach((pill) => {
     pill.addEventListener('click', () => {
-      filterPills.forEach((p) => p.classList.remove('active'));
+      filterPills.forEach((p) => {
+        p.classList.remove('active');
+        p.setAttribute('aria-pressed', 'false');
+      });
       pill.classList.add('active');
+      pill.setAttribute('aria-pressed', 'true');
       activeFilter = pill.getAttribute('data-filter');
       filterCards();
     });
